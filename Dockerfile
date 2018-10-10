@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:8
 
 # Install redis
 RUN apt-get update && apt-get install -y redis-server
